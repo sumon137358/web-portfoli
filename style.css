@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* information-section start from here */
+.information-section{
+    min-height: 500px;
+    padding: 10px;
+    margin-bottom: 30px;
+   
+}
+.half-area{
+    width: 40%;
+    float: left;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.half-area img{
+    width: 100%;
+}
+.half-area samp{
+    color: rgb(240, 20, 185);
+}
+.half-area a{
+    text-decoration: none;
+    color: rgb(32, 8, 252);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition-duration: 0.8s;
+
+    
+}
+.half-area a:hover{
+    background-color: blue;
+    color: white;
+}
+.half-area p{
+    color: rgb(60, 69, 70);
+}
+#bg-style{
+    background-image: url(emages/top-banner.png);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 500px;
+}
+
+/* information-section end from here */
+
+/* dream-area-section start from here */
+.dream-area-section{
+    min-height: 500px;
+    padding: 10px;
+    margin-bottom: 30px;
+   
+}
+.dream-area-section a{
+    text-decoration: none;
+    color: black;
+   background-color: white;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    transition-duration: 0.6s;
+
+    
+}
+.dream-area-section a:hover{
+    background-color: green;
+    color: white;
+}
+.dream-area-section #merginRight{
+    margin-left: 60px;
+}
+#bg-style2{
+    background-image: url(emages/dream-bg.png);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 30px;
+    background-position:left;
+}
+/* dream-area-section end from here */
+
+/* experiment-section start from here */
+.experiment-section{
+    min-height: 400px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.experiment-section #style{
+    box-shadow: 4px 8px 16px;
+    margin-left: 10px;
+    min-height: 100px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+#bg-style3{
+    background-image: url(emages/exp-bg.png);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 30px;
+    background-position:left;
+}
+.inside-color1{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, red,orange,green,blue);
+    border-image-slice: 1;
+   
+}
+.inside-color2{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg,green,blue,red,orange);
+    border-image-slice: 1;
+   
+}
+/* experiment-section end from here */
+
+/* footer start from here */
+footer{
+    margin-bottom: 40px;
+    min-height: 20px;
+}
+footer p{
+    text-align: center;
+    color: rgb(88, 78, 74);
+}
+/* footer start end here */
+
+@media only screen and (max-width: 600px) {
+    .half-area{
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+        margin: 5px;
+        flex-wrap: wrap;
+    }
+    .half-area h3{
+        width: 100%;
+    }
+    section{
+        margin-bottom: 40px;
+   
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    footer{
+        margin-top: 10px;
+        
+
+    }
+  }
